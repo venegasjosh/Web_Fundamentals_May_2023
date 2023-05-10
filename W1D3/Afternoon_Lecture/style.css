@@ -1,0 +1,79 @@
+*{
+  outline: 12px solid black;
+}
+
+body, html{
+  outline: none;
+}
+
+
+.container{
+  background-color: red;
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.top-row{
+  height: 180px;
+  width: 500px;
+  background-color: blue;
+  display: flex;
+}
+
+.top-left-square{
+  height: 180px;
+  width: 180px;
+  background-color: red;
+}
+
+.white-rectangle{
+  height: 180px;
+  width: 320px;
+  background-color: white;
+}
+
+.top-left-square-top-row{
+  height: 100px;
+  width: 180px;
+  background-color: yellow;
+  
+}
+
+.tiny-blue-square{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+
+}
+
+.bottom-row{
+  width: 500px;
+  height: 320px;
+  background-color: deeppink;
+  display: flex;
+}
+
+.big-yellow{
+height: 320px;
+width: 125px;
+background-color: yellow;
+
+}
+
+.middle{
+  height: 320px;
+  width: 250px;
+  background-color: white;
+}
+
+.middle-top-half{
+  height: 160px;
+  background-color: blue;
+}
+
+.big-red{
+height: 320px;
+width: 125px;
+background-color: red;
+}
