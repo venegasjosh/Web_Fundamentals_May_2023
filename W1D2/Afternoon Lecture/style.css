@@ -1,0 +1,35 @@
+*{
+  /* outline: 2px solid red; */
+}
+
+div{
+  height: 200px;
+  width: 200px;
+  margin: 40px;
+  outline: 2px solid blue;
+  /* display: inline-block; */
+}
+
+.block1{
+  display: inline-block;
+}
+
+.block2{
+  display: inline-block;
+  background-color: darkred;
+}
+
+.block3{
+  display: inline-block;
+  /* padding: 25px 50px 75px 100px; */
+}
+
+p {
+  vertical-align: top;
+  display: inline-block;
+  width: 200px;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: lightgreen;
+  margin: 10px;
+}
