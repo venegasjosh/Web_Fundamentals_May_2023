@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#container {
+  background-color: yellow;
+  display: flex;
+  
+}
+
+#box-1,
+#box-2,
+#box-3 {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+#box-1 {
+  background-color: green;
+
+}
+
+#box-2 {
+  background-color: pink;
+  /* position here below */
+   /* position: ; */
+
+}
+
+#box-3 {
+  background-color: blue;
+ 
+}
