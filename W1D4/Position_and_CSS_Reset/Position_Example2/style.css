@@ -7,7 +7,6 @@
 #container {
   background-color: yellow;
   display: flex;
-  
 }
 
 #box-1,
@@ -20,17 +19,16 @@
 
 #box-1 {
   background-color: green;
-
 }
 
 #box-2 {
   background-color: pink;
   /* position here below */
-   /* position: ; */
-
+  position: absolute;
+  left: 350px;
+  
 }
 
 #box-3 {
   background-color: blue;
- 
 }

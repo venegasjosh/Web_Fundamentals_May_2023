@@ -9,6 +9,8 @@
     margin: 0 auto;
     padding: 20px;
     box-shadow: 4px 4px 4px grey;
+    outline: 3px solid red;
+
   }
   h1 {
     font-size: 50px;
@@ -26,8 +28,8 @@
     background-color: #fff;
     box-shadow: 4px 4px 4px grey;
     /* change the position properties here */
-     /* position: ;  */
-     /* top: 5px; */
+    position: absolute;
+    top: 50px;
     
      
   }
