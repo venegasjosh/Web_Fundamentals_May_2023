@@ -1,0 +1,178 @@
+/* css reset */
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 1000px;
+  /* below, this rule will center the body */
+  margin: 0 auto;
+}
+
+/* nav section */
+
+.top-nav{
+  height: 50px;
+  background-color: gray;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.top-left-nav{
+  width: 450px;
+  height: 100%;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.top-left-nav > input{
+  width: 150px;
+}
+.top-left-nav > button{
+  padding: 5px;
+  width: 40px;
+  background-color: yellow;
+}
+
+.top-left-nav > img{
+  height: 100%;
+  width: 50px;
+  
+}
+
+
+.top-right-nav{
+  width: 250px;
+  height: 100%;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.get-app{
+  height: 30px;
+  width: 80px;
+  background-color: blue;
+  color: white;
+}
+.login{
+  height: 30px;
+  width: 80px;
+  background-color: yellow;
+}
+
+.bottom-nav{
+  height: 100px;
+  /* background-color: green; */
+  padding-top: 60px;
+}
+
+.bottom-nav-upper{
+  /* background-color: white; */
+  width: 220px;
+  display: flex;
+  align-items: center;
+  margin-left: 160px;
+  justify-content: space-between;
+
+}
+.bottom-nav-upper > img{
+  height: 40px;
+  width: 40px;
+  
+}
+
+.bottom-nav-upper > button{
+  width: 80px;
+  height: 40px;
+  background-color: red;
+}
+
+
+.bottom-nav-lower {
+  /* background-color: orange; */
+  height: 50px;
+  width: 240px;
+  margin-left: 160px;
+}
+.bottom-nav-lower > ul{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  list-style-type: none;
+  justify-content: space-between;
+
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+/* main content */
+
+.main-content{
+  height: 600px;
+  width: 700px;
+  background-color: blue;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* left column */
+
+.left-column{
+  width: 55%;
+  height: 600px;
+  background-color: green;
+}
+/* post one  */
+
+.post-one{
+  background-color: magenta;
+  width: 386px;
+  height: 285px;
+}
+
+/* post two  */
+
+.post-two{
+  background-color: orange;
+  width: 386px;
+  height: 285px;
+  margin-top: 30px
+
+}
+
+/* right column */
+.right-column{
+  width: 40%;
+  height: 600px;
+  background-color: pink;
+}
+
+/* about dojo */
+.about-dojo{
+  background-color: black;
+  width:100%;
+  height: 200px;
+}
+
+/* discord */
+
+.discord{
+  background-color: aqua;
+  width: 100%;
+  height: 100px;
+  margin-top: 35px;
+}
+
+/* dojo rules */
+.dojo-rules{
+  background-color: yellow;
+  height: 230px;
+  width: 100%;
+  margin-top: 35px;
+}
