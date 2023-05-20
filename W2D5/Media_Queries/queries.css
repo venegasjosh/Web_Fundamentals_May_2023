@@ -1,0 +1,18 @@
+
+/* the following is for when the view is past mobile */
+@media (min-width: 768px){
+  /* we will set these stylings only if the device is a screen with a width of 480px or less */
+  
+  .sm-0{
+    width: 40%;
+    display: block;
+  }
+  .row{
+    flex-direction: row;
+  }
+
+}
+/* desktop view */
+@media (min-width: 992px){
+
+}
